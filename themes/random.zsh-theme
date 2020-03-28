@@ -35,4 +35,4 @@ else
   return 1
 fi
 
-echo "[oh-my-zsh] Random theme '${RANDOM_THEME}' loaded"
+echo "[oh-my-zsh] 今天隨機的主題是： \033[1;31m${RANDOM_THEME}"
