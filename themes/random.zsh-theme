@@ -34,5 +34,6 @@ else
   echo "[oh-my-zsh] Random theme '${RANDOM_THEME}' not found"
   return 1
 fi
-
-echo "[oh-my-zsh] 今天隨機的主題是： \033[1;31m${RANDOM_THEME}"
+RAN=$[RANDOM%10+1]
+EMOJIS=(😏 😉 😋 😌 😂 😁 😝 😜 😘)
+echo "[立中] 今天隨機的主題是： \033[1;31m${RANDOM_THEME} $EMOJIS[RAN]"
