@@ -8,12 +8,13 @@ To use it, add `rvm` to the plugins array in your zshrc file:
 plugins=(... rvm)
 ```
 
-## Functions
-| Alias          | Command              |
-|----------------|----------------------|
-| `rb18`         | `rvm use ruby-1.8.7` |
-| `rb19`         | `rvm use ruby-1.9.3` |
-| `rb20`         | `rvm use ruby-2.0.0` |
-| `rb21`         | `rvm use ruby-2.1.2` |
-| `rvm-update`   | `rvm get head`       |
-| `gems`         | `gem list`           |
+## Aliases
+
+| Alias        | Command              |
+|--------------|----------------------|
+| `rb18`       | `rvm use ruby-1.8.7` |
+| `rb19`       | `rvm use ruby-1.9.3` |
+| `rb20`       | `rvm use ruby-2.0.0` |
+| `rb21`       | `rvm use ruby-2.1.2` |
+| `rvm-update` | `rvm get head`       |
+| `gems`       | `gem list`           |

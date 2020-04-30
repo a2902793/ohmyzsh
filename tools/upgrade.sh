@@ -58,4 +58,4 @@ fi
 case "$resetAutoStash" in
   "") git config --unset rebase.autoStash ;;
   *) git config rebase.autoStash "$resetAutoStash" ;;
-esacs
+esac
