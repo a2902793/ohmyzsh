@@ -139,7 +139,7 @@ setup_zshrc() {
 
 	sed "/^export ZSH=/ c\\
 export ZSH=\"$ZSH\"
-" "$ZSH/templates/zshrc.zsh-template" > ~/.zshrc-omztemp
+" "$ZSH/templates/custom.zsh-template" > ~/.zshrc-omztemp
 	mv -f ~/.zshrc-omztemp ~/.zshrc
 
 	echo
@@ -256,6 +256,7 @@ main() {
 	fi
 
 	setup_ohmyzsh
+	git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 	setup_zshrc
 	setup_shell
 
