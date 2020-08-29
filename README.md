@@ -50,6 +50,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/a2902793/ohmyzsh/master/to
 sh -c "$(wget -O- https://raw.githubusercontent.com/a2902793/ohmyzsh/master/tools/install.sh)"
 ```
 
+#### via fetch
+
+```shell
+sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 #### Manual inspection
 
 It's a good idea to inspect the install script from projects you don't yet know. You can do
@@ -274,7 +280,7 @@ DISABLE_AUTO_UPDATE=true
 If you'd like to upgrade at any point in time (maybe someone just released a new plugin and you don't want to wait a week?) you just need to run:
 
 ```shell
-upgrade_oh_my_zsh
+omz update
 ```
 
 Magic! 🎉
