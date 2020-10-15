@@ -1,5 +1,6 @@
 # custom files
 custom/
+themes/random.zsh-theme
 
 # temp files directories
 cache/
