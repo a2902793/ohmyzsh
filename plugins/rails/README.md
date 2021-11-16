@@ -12,19 +12,21 @@ plugins=(... rails)
 
 ### Rails aliases
 
-| Alias  | Command                    | Description                                        |
-|--------|----------------------------|----------------------------------------------------|
-| `rc`   | `rails console`            | Interact with your Rails app from the CLI          |
-| `rcs`  | `rails console --sandbox`  | Test code in a sandbox, without changing any data  |
-| `rd`   | `rails destroy`            | Undo a generate operation                          |
-| `rdb`  | `rails dbconsole`          | Interact with your db from the console             |
-| `rgen` | `rails generate`           | Generate boilerplate code                          |
-| `rgm`  | `rails generate migration` | Generate a db migration                            |
-| `rp`   | `rails plugin`             | Run a Rails plugin command                         |
-| `ru`   | `rails runner`             | Run Ruby code in the context of Rails              |
-| `rs`   | `rails server`             | Launch a web server                                |
-| `rsd`  | `rails server --debugger`  | Launch a web server with debugger                  |
-| `rsp`  | `rails server --port`      | Launch a web server and specify the listening port |
+| Alias | Command                    | Description                                        |
+|-------|----------------------------|----------------------------------------------------|
+| `rc`  | `rails console`            | Interact with your Rails app from the CLI          |
+| `rcs` | `rails console --sandbox`  | Test code in a sandbox, without changing any data  |
+| `rd`  | `rails destroy`            | Undo a generate operation                          |
+| `rdb` | `rails dbconsole`          | Interact with your db from the console             |
+| `rgen`| `rails generate`           | Generate boilerplate code                          |
+| `rgm` | `rails generate migration` | Generate a db migration                            |
+| `rp`  | `rails plugin`             | Run a Rails plugin command                         |
+| `rr`  | `rails routes`             | List all defined routes                            |
+| `rrg` | `rails routes \| grep`     | List and filter the defined routes                 |
+| `ru`  | `rails runner`             | Run Ruby code in the context of Rails              |
+| `rs`  | `rails server`             | Launch a web server                                |
+| `rsd` | `rails server --debugger`  | Launch a web server with debugger                  |
+| `rsp` | `rails server --port`      | Launch a web server and specify the listening port |
 
 ### Rake aliases
 
@@ -43,8 +45,6 @@ plugins=(... rails)
 | `rdsl`  | `rake db:schema:load`           | Load the database schema                               |
 | `rlc`   | `rake log:clear`                | Clear Rails logs                                       |
 | `rn`    | `rake notes`                    | Search for notes (`FIXME`, `TODO`) in code comments    |
-| `rr`    | `rake routes`                   | List all defined routes                                |
-| `rrg`   | `rake routes \| grep`           | List and filter the defined routes                     |
 | `rt`    | `rake test`                     | Run Rails tests                                        |
 | `rmd`   | `rake middleware`               | Interact with Rails middlewares                        |
 | `rsts`  | `rake stats`                    | Print code statistics                                  |
